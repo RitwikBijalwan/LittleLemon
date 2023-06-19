@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import generics
-from serializers import MenuSerializer, BookingSerializer
-from models import Menu, Booking
+from .serializers import MenuSerializer, BookingSerializer
+from .models import Menu, Booking
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
 
